@@ -6,18 +6,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gym World : {% block extra_title %}{% endblock %}</title>
+
+    <!-- site description and SEO -->
+    <meta name="description" content="gym and fitness centre for all ages in Dublin">
+    <meta name="keywords" content="Gym, Fitness, Exercise, Swimming, Fitness class">
+    <meta name="author" content="James Glennon">
 
     {% block core_css %}
     <!-- Bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!-- Link to custome CSS -->
+    <!-- Link to custom CSS -->
     <link href="{% static '/css/style.css' %}" rel="stylesheet">
     <!-- Favicon link -->
     <link rel="icon" href="{% static '/media/favicon.ico' %}">
     {% endblock %}
 
+    <!-- Required JS preload -->
     {% block core_js %}
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -72,6 +78,9 @@
             </div>
         </div>
     </footer>
+    <!-- JS loaded after HTML -->
+    {% block post_js %}
+    {% endblock %}
 </body>
 
 </html>
