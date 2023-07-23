@@ -1,0 +1,3 @@
+User-agent:*
+Disallow:
+Sitemap: https://gymworld-b143505c6bc4.herokuapp.com/sitemap.xml

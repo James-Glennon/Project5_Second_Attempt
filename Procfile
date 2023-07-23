@@ -1,0 +1,1 @@
+web: gunicorn gymworld_project.wsgi:application

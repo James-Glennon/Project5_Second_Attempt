@@ -27,7 +27,8 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-james-glennon-project5-s-qw13zdufc1.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-james-glennon-project5-s-qw13zdufc1.us2.codeanyapp.com',
+                 'https://gymworld-b143505c6bc4.herokuapp.com/']
 
 
 # Application definition
