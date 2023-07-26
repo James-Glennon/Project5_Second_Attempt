@@ -54,4 +54,6 @@ Favicon by [Icons8](https://icons8.com)
 
 #### Navigation
 
+Python code from Code Institute's Boutique Ado walkthrough project was used to display/hide links for logged-in users / anonymous 
+
 Copied from [bootstrap documentation](https://getbootstrap.com/docs/5.3/components/navs-tabs/#base-nav)
