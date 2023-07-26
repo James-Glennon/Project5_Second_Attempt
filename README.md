@@ -58,4 +58,6 @@ Followed steps from [Make Us Of](https://www.makeuseof.com/create-custom-404-err
 
 #### Navigation
 
-Copied from [bootstrap documentation](https://getbootstrap.com/docs/5.3/components/navs-tabs/#base-nav).
+Python code from Code Institute's Boutique Ado walkthrough project was used to display/hide links for logged-in users / anonymous
+
+Copied from [bootstrap documentation](https://getbootstrap.com/docs/5.3/components/navs-tabs/#base-nav)
