@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from homepage.views import get_homepage
+from homepage.views import get_homepage, get_404
+
+# leads to view for custom 404 page.
+handler404 = 'homepage.views.get_404'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', get_homepage, name='home'),
-    path('accounts/', include('allauth.urls'))
+    path('accounts/', include('allauth.urls')),
 ]

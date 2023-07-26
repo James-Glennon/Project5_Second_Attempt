@@ -52,6 +52,10 @@ Favicon by [Icons8](https://icons8.com)
 
 ### Code
 
+#### Custom 404 Page
+
+Followed steps from [Make Us Of](https://www.makeuseof.com/create-custom-404-error-page-django/).
+
 #### Navigation
 
-Copied from [bootstrap documentation](https://getbootstrap.com/docs/5.3/components/navs-tabs/#base-nav)
+Copied from [bootstrap documentation](https://getbootstrap.com/docs/5.3/components/navs-tabs/#base-nav).
