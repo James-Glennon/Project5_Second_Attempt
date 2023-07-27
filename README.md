@@ -52,6 +52,10 @@ Favicon by [Icons8](https://icons8.com)
 
 ### Code
 
+#### Hosting Staticfiles
+
+followed steps from [W3 schools](https://www.w3schools.com/django/django_static_whitenoise.php) to display static files in development environment when 'DEBUG = False'.
+
 #### Custom 404 Page
 
 Followed steps from [Make Us Of](https://www.makeuseof.com/create-custom-404-error-page-django/).
