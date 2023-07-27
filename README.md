@@ -33,6 +33,10 @@ Both the customer and the business staff should be able to see how much longer a
 
 ### Known Bugs / Unresolved Issues
 
+#### DATABASE URL change
+
+After changing from the local db.sqlite3 server to the elephantSQL, I attempted to change the DATABASE_URL recorded in the heroku config_vars but was unable.
+
 ### Testing
 
 #### Validation and Lighthouse
