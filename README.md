@@ -31,11 +31,17 @@ Both the customer and the business staff should be able to see how much longer a
 
 ### Resolved Issues
 
-### Known Bugs / Unresolved Issues
-
 #### DATABASE URL change
 
 After changing from the local db.sqlite3 server to the elephantSQL, I attempted to change the DATABASE_URL recorded in the heroku config_vars but was unable.
+
+The problem was addressed by deleting the associated Heroku Postgres resource. This deleted any database data currently saved on heroku, but allowed the heroku app be connected to the elephantSQL database instead.
+
+### Known Bugs / Unresolved Issues
+
+Logging into the Django backend through heroku live site using the '/admin' url and the superuser info returns a "csrf token missing" error.
+
+On refreshing the page, the login attempt appears to have gone through, allowing backend maintainence.
 
 ### Testing
 
