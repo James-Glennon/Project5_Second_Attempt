@@ -51,10 +51,6 @@ INSTALLED_APPS = [
 
 SITE_ID = 1
 
-# Remove account_email_verification before final deployment.
-# Required to avoid errors during development.
-ACCOUNT_EMAIL_VERIFICATION = 'none'
-
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
@@ -94,12 +90,6 @@ WSGI_APPLICATION = 'gymworld_project.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    # initial in development database. REMOVE BEFORE FINAL DEPLOY!!!
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
-
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
